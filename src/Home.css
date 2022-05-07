@@ -1,0 +1,76 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 90vh;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    transition: 1ms ease-in;
+    animation: showup 7s;
+}
+
+.Home-scroll{
+    display: flex;
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 12rem;
+    right: 20rem;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    animation: showup 11s;
+}
+
+.Home-myName{
+    display: inline-flex;
+    flex-direction: row;
+    transition: 0.01s ease-in ;
+    transition: 0.3s ease-out;
+    letter-spacing: 3px;
+    cursor: zoom-in;
+}
+
+.Home-myName:hover {
+    display: inline-flex;
+    flex-direction: row;
+    color: #A00;
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.Home-welcome{
+    font-size: 7rem;
+}
+
+.Home-name{
+    font-size: 5rem;
+}
+
+.Home-msg{
+    font-size: 3rem;
+}
+
+.Home-button{
+    display: inline-block;
+    justify-content: center;
+    margin: 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    color: #A00;
+    cursor: pointer;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:0;}
+    50% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}

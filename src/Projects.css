@@ -1,0 +1,42 @@
+.Projects{
+    display: block;
+    align-self: left;
+    justify-content: left;
+    margin: 1rem;
+    padding-top: 5rem;
+    max-width: 100%;
+}
+
+.Projects-cover{
+    position: absolute;
+    margin-left: 30px;
+    background-color: #171717;
+    width: 260px;
+    height: 60px;
+    opacity: 0.8;
+    animation-name: slideright-projects;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.Projects-fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-color: #A00;
+    width: 95%;
+    font-size: 50px;
+}
+
+@keyframes slideright-projects {
+    0% {margin-left: 290px; width: 0px;}
+    15% {margin-left: 290px; width: 0px;}
+    30% {margin-left: 290px; width: 0px;}
+    40%{margin-left: 238px; width: 52px;}
+    55%{margin-left: 186px; width: 104px;}
+    70%{margin-left: 134px;width: 156px;}
+    85%{margin-left: 82px; width: 208px;}
+    100%{margin-left: 30px; width: 260px;}
+}

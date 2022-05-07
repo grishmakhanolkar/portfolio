@@ -1,0 +1,93 @@
+.Contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    justify-content: left;
+    margin-top: 10rem;
+    font-size: x-large;
+    letter-spacing: 0.3rem;
+    padding-top: 5rem;
+}
+
+.Contact-cover{
+    position: absolute;
+    margin-left: 30px;
+    background-color: #171717;
+    width: 370px;
+    height: 60px;
+    opacity: 0.8;
+    animation-name: slideright-contact;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.Contact-fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top-color: #A00;
+    font-size: 50px;
+}
+
+@keyframes slideright-contact {
+    0% {margin-left: 400px; width: 0px;}
+    15% {margin-left: 400px; width: 0px;}
+    30% {margin-left: 400px; width: 0px;}
+    40%{margin-left: 326px; width: 74px;}
+    55%{margin-left: 252px; width: 148px;}
+    70%{margin-left: 178px;width: 222px;}
+    85%{margin-left: 104px; width: 296px;}
+    100%{margin-left: 30px ; width: 370px;}
+}
+
+.feedback{
+    display: block;
+    text-align: left;
+    justify-content: left;
+    padding: 3rem;
+}
+
+.feedback button{
+   display: block;
+   margin: auto;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 10px;
+   font-size: x-large;
+}
+
+.contact-or{
+    display: block;
+    position: relative;
+    top: 15rem;
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+}
+
+.contact-social{
+    display: block;
+    align-content: center;
+    padding: 1rem;
+    color: white;
+    font-size: 30px;
+    border-radius: 30%;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    border:  1rem inset;
+}
+
+.contact-social-list{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    padding-left: 0;
+    text-decoration: none;
+    list-style: none;
+}

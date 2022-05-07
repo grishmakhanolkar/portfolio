@@ -1,0 +1,49 @@
+.NavBar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(0,0,0,1);
+    z-index: 1;
+}
+
+.NavBar-avatar{
+    padding: 1rem;
+}
+.myName{
+    display: inline-flex;
+    flex-direction: row;
+    transition: 0.01s ease-in ;
+    transition: 0.3s ease-out;
+    letter-spacing: 3px;
+    cursor: zoom-in;
+}
+
+.myName:hover {
+    display: inline-flex;
+    flex-direction: row;
+    color: #A00;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.NavBar-menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+}
+
+.NavBar-menu-icon:hover{
+    animation-name: rotateIcon;
+    animation-duration: 0.5s;
+}
+
+
+@keyframes rotateIcon {
+    100% {transform: rotate(360deg);}
+}
