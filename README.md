@@ -3,8 +3,11 @@
   <a href="https://grishmakhanolkar.netlify.app/">grishmakhanolkar.netlify.app</a>
   </h1>
   <h1 align="center">
-<img src="./src/images/website.gif"/><br/></h1>
+<img src="./src/images/website.gif"/><br/>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75f48460-14e5-4f13-a769-6d00108350c2/deploy-status)](https://app.netlify.com/sites/grishmakhanolkar/deploys)
+
+</h1>
 ## Built With
 
 This project was built using these technologies.
