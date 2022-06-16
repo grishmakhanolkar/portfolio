@@ -51,14 +51,14 @@
     padding: 3rem;
 }
 
-.feedback button{
+ .feedback button{
    display: block;
    margin: auto;
-   text-align: center;
-   cursor: pointer;
-   border-radius: 10px;
-   font-size: x-large;
-}
+   /* text-align: center; */
+   /* cursor: pointer; */
+   /* border-radius: 10px; */
+   /* font-size: x-large; */
+} 
 
 .contact-or{
     display: block;
