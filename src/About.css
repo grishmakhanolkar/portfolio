@@ -61,20 +61,3 @@
     border-radius: 2rem;
 }
 
-.About-contactlink{
-    color: white;
-    text-decoration: none;
-    
-}
-
-.About-contactlink{
-    margin: 1rem;
-    margin-left: 0;
-    padding: 1rem;
-    text-decoration: none;
-    width: 150px;
-    height: 50px;
-    border-radius: 1rem;
-    color: #A00;
-    cursor: pointer;
-}

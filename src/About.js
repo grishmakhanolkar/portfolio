@@ -19,7 +19,7 @@ class About extends Component{
 
                 I build apps with beautiful UI/UX. My current tech stack is React with Material UI.<br/><br/>
                 I'm open to freelancing and collaborating with others on interesting projects.<br/><br/>
-                <a  href="#contact"><button className="About-contactlink">Contact Me</button></a>
+                <a  href="#contact"><button>Contact Me</button></a>
                     </Grid>
                     <Grid className="About-img" item xs={6}>
                         <img className="About-avatar"  alt="Grishma" src={Grishma}/>

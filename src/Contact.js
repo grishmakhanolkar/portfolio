@@ -131,7 +131,7 @@ class Contact extends Component {
                                     multiline
                                     fullWidth>
                                 </TextField>
-                                <button>SEND MESSAGE</button>
+                                <button>Send Message</button>
                             </form>
                         </Paper>
                     </Grid>
