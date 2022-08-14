@@ -5,6 +5,7 @@ import GithubIcon from './images/githubicon.png';
 import Insta from './images/Insta.png';
 import LinkedinIcon from './images/linkedin.png';
 import TwitterIcon from './images/twitter.png';
+import MediumIcon from './images/mediumIcon.png'
 import './Contact.css';
 class Contact extends Component {
     constructor(props){
@@ -46,6 +47,7 @@ class Contact extends Component {
             {siteLink: "https://www.instagram.com/grishmakhanolkar/", imgLink: Insta, name:'insta'},
             {siteLink: "https://twitter.com/k_grishma/", imgLink: TwitterIcon, name:'twitter'},
             {siteLink: "https://github.com/grishmakhanolkar", imgLink: GithubIcon, name: 'github'},
+            {siteLink: "https://medium.com/@grishmakhanolkar", imgLink: MediumIcon, name: 'medium'},
         ];
 
         return(
