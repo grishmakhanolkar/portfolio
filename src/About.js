@@ -17,7 +17,7 @@ class About extends Component{
                         
                 I am an Instrumentation Engineer, who works on World's Largest Petrochecmical & Refinery Projects, with a passion for Web Development.<br/><br/>
 
-                I build apps with beautiful UI/UX. My current tech stack is React with Material UI.<br/><br/>
+                I build apps with beautiful UI/UX. My current tech stack is React, Next JS, Bootstrap and Material UI.<br/><br/>
                 I'm open to freelancing and collaborating with others on interesting projects.<br/><br/>
                 <a  href="#contact"><button>Contact Me</button></a>
                     </Grid>
