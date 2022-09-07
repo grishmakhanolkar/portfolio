@@ -6,10 +6,14 @@ import Hangman from './images/HangMan.png';
 import LightsOut from './images/LightsOut.png';
 import ToDo from './images/Todo.png';
 import ColourPalette from './images/colourpalette.png';
+import YTVideoPlayer from './images/YTVideoPlayer.png';
+import Login from './images/Login.png';
 import './Projects.css';
 class Projects extends Component{
     render(){
         const newProject = [
+            {projectName: 'YT Video Player', Description:"Search and play any YouTube content. Created using Next JS and Bootstrap", imgSrc: YTVideoPlayer, webUrl: "https://ytvideoplayer.netlify.app"},
+            {projectName: 'Login Page', Description:"A sample Login page using Google OAuth. Created using React and Material UI", imgSrc: Login, webUrl: "https://loginpage-sample.netlify.app/"},
             {projectName: 'Colour Palette', Description:"This project contains colour palettes. Select and copy any colour of your choice. Created using React", imgSrc: ColourPalette, webUrl: "https://projectcolourpalette.netlify.app"},
             {projectName: 'ToDo App', Description:"Create your To Do list using this app. Created using React, React Hooks and Material UI.", imgSrc: ToDo, webUrl: "https://project-todo-list-app.netlify.app"},
             {projectName: 'Hangman', Description:"Guess the correct word. You get 6 incorrect chances till game ends.", imgSrc: Hangman, webUrl:"https://projecthangman.netlify.app"},
