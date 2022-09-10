@@ -15,9 +15,9 @@ class About extends Component{
                 <Grid container spacing={0}>
                     <Grid className="About-info" item xs={6}>
                         
-                I am an Instrumentation Engineer, who works on World's Largest Petrochecmical & Refinery Projects, with a passion for Web Development.<br/><br/>
+                I am a Web Developer. I build apps with a clean UI and a focus on the UX. <br/><br/>
 
-                I build apps with beautiful UI/UX. My current tech stack is React, Next JS, Bootstrap and Material UI.<br/><br/>
+                My current tech stack is React, Next JS, Bootstrap and Material UI.<br/><br/>
                 I'm open to freelancing and collaborating with others on interesting projects.<br/><br/>
                 <a  href="#contact"><button>Contact Me</button></a>
                     </Grid>
