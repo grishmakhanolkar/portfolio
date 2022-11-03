@@ -51,7 +51,7 @@ class Contact extends Component {
         ];
 
         return(
-            <div id="contact" className="Contact">
+            <section id="contact" className="Contact">
                 <div className="Contact-cover"/>
                 <fieldset className="Contact-fieldset">
                     <legend>
@@ -167,7 +167,7 @@ class Contact extends Component {
                         </Paper>
                     </Grid>
                 </Grid>
-            </div>
+            </section>
         );
     }
 }

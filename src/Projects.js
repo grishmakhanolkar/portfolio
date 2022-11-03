@@ -23,13 +23,13 @@ class Projects extends Component{
             
             ]
         return(
-            <div id="projects" className="Projects">
+            <section id="projects" className="Projects">
                 <div className="Projects-cover"></div>
                 <fieldset className="Projects-fieldset"><legend>PROJECTS</legend></fieldset>
                 {newProject.map((project)=> 
                     <ProjectDetail projectName={project.projectName} info ={project.Description} imgSrc={project.imgSrc} webUrl = {project.webUrl}/>
                 )}
-            </div>
+            </section>
         );
     }
 }

@@ -6,9 +6,9 @@ class ProjectDetail extends Component{
         return(
             <div className="ProjectDetails">
                 <div className="ProjectDetails-left">
-                    <span className="ProjectDetails-title">{projectName}</span>
-                    <span className="ProjectDetails-info">{info}</span>
-                    <span className="ProjectDetails-info">Click on Image to visit site</span>
+                    <h3 className="ProjectDetails-title">{projectName}</h3>
+                    <p className="ProjectDetails-info">{info}</p>
+                    <p className="ProjectDetails-info">Click on Image to visit site</p>
                 </div>
                 <div className="ProjectDetails-right">
                     <a target="blank" href={webUrl}>
