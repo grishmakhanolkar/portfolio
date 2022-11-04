@@ -17,10 +17,10 @@ class Home extends Component {
         </h3>
         <p className="Home-msg">Web Developer from India</p>
         <div>
-          <a href="#projects">
-            <button className="Home-button"> View my Projects</button>
+          <a href="#projects" className="Home-button">
+            <button > View my Projects</button>
           </a>
-          <a href="#about">
+          <a href="#about" className="Home-button">
             <button className="Home-button">About Me</button>
           </a>
         </div>
