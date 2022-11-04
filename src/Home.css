@@ -14,6 +14,7 @@
     display: flex;
     position: absolute;
     writing-mode: vertical-rl;
+    text-transform: uppercase;
     top: 12rem;
     right: 20rem;
     flex-direction: column;

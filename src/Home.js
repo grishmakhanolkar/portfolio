@@ -25,7 +25,7 @@ class Home extends Component {
           </a>
         </div>
         <div className="Home-scroll">
-          <div>SCROLL</div>
+          <div>Scroll</div>
           <div>{arrow}</div>
         </div>
       </section>
