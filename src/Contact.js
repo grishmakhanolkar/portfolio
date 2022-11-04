@@ -88,7 +88,7 @@ class Contact extends Component {
                                         '& .MuiOutlinedInput-root': {
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}>
                                 </TextField>
@@ -107,7 +107,7 @@ class Contact extends Component {
                                         '& .MuiOutlinedInput-root': {
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}>
                                 </TextField>
@@ -127,7 +127,7 @@ class Contact extends Component {
                                             height: '200px',
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}
                                     multiline
