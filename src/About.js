@@ -6,12 +6,13 @@ class About extends Component{
     render(){
         return(
             <section id="about" className="About">
+                <h1 className="About-title">About</h1>
                 <div className="About-cover"/>
-                <fieldset className="About-fieldset">
+                {/* <fieldset className="About-fieldset">
                     <legend>
                         ABOUT
                     </legend>
-                </fieldset>
+                </fieldset> */}
                 <Grid container spacing={0}>
                     <Grid className="About-info" item xs={6}>
                         I am a Web Developer. I build apps with a clean UI and a focus on the UX. <br/><br/>

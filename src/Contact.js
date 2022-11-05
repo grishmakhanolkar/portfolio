@@ -52,12 +52,14 @@ class Contact extends Component {
 
         return(
             <section id="contact" className="Contact">
-                <div className="Contact-cover"/>
-                <fieldset className="Contact-fieldset">
+                
+                {/* <fieldset className="Contact-fieldset">
                     <legend>
                         CONTACT ME
                     </legend>
-                </fieldset>
+                </fieldset> */}
+                <h1 className="Contact-title"> Contact Me</h1>
+                <div className="Contact-cover"/>
                 <Grid container spacing={0}>
                     <Grid item xs={7}>
                         <Paper style={{

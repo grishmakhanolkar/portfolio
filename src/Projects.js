@@ -24,8 +24,9 @@ class Projects extends Component{
             ]
         return(
             <section id="projects" className="Projects">
+                <h1 className="Project-title">Projects</h1>
                 <div className="Projects-cover"></div>
-                <fieldset className="Projects-fieldset"><legend>PROJECTS</legend></fieldset>
+                {/* <fieldset className="Projects-fieldset"><legend>PROJECTS</legend></fieldset> */}
                 {newProject.map((project)=> 
                     <ProjectDetail projectName={project.projectName} info ={project.Description} imgSrc={project.imgSrc} webUrl = {project.webUrl}/>
                 )}
