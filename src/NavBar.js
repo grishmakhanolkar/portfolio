@@ -28,7 +28,7 @@ class NavBar extends Component {
       { icon: <CottageTwoToneIcon/>, name: 'home', link:'#home' },
     ];
     return(
-      <div className="NavBar">
+      <nav className="NavBar">
         <a href="/">
           <Avatar className="NavBar-avatar" alt="Grishma Prabhukhanolkar" src="/android-chrome-512x512.png"/>
         </a>
@@ -54,7 +54,7 @@ class NavBar extends Component {
             </SpeedDial>
           </Box>
         </div>
-      </div>
+      </nav>
     );
   }
 }
