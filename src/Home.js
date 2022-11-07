@@ -5,16 +5,16 @@ class Home extends Component {
     const arrow = "-------->";
     return (
       <section id="home" className="Home">
-        <h1 className="Home-welcome">Hello!</h1>
-        <h3 className="Home-name">
+        <h2 className="Home-welcome">Hello!</h2>
+        <h1 className="Home-name">
           <span>I'm </span>
           <span className="Home-myName" style={{ color: "#A00" }}>
             G
           </span>
-          {"RISHMA".split("").map((ltr) => (
+          {"rishma".toUpperCase().split("").map((ltr) => (
             <div className="Home-myName">{ltr}</div>
           ))}
-        </h3>
+        </h1>
         <p className="Home-msg">Web Developer from India</p>
         <div>
           <a href="#projects" className="Home-button">

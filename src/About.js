@@ -6,7 +6,7 @@ class About extends Component{
     render(){
         return(
             <section id="about" className="About">
-                <h1 className="About-title">About</h1>
+                <h2 className="About-title">About</h2>
                 <div className="About-cover"/>
                 {/* <fieldset className="About-fieldset">
                     <legend>

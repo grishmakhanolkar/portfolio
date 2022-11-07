@@ -58,7 +58,7 @@ class Contact extends Component {
                         CONTACT ME
                     </legend>
                 </fieldset> */}
-                <h1 className="Contact-title"> Contact Me</h1>
+                <h2 className="Contact-title"> Contact Me</h2>
                 <div className="Contact-cover"/>
                 <Grid container spacing={0}>
                     <Grid item xs={7}>
