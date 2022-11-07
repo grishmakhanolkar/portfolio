@@ -13,35 +13,61 @@
 
 .Contact-cover{
     position: absolute;
-    margin-left: 30px;
+    margin-top: 2rem;
+    /* margin-left: 50px; */
     background-color: #171717;
-    width: 370px;
-    height: 60px;
+    /* width: 275px; */
+    height: 50px;
     opacity: 0.8;
     animation-name: slideright-contact;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
 }
-
+/* 
 .Contact-fieldset{
     border-bottom: none;
     border-left: none;
     border-right: none;
     border-top-color: #A00;
     font-size: 50px;
+} */
+
+.Contact-title{
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+}
+
+.Contact-title:before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    display: block;
+    background-color: #A00;
+    margin-left:-50px ;
+    position: absolute;
+    top:50%;
+    
+}
+.Contact-title::after{
+    content: "";
+    height: 1px;
+    display: block;
+    background-color: #A00;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 275px;
 }
 
 @keyframes slideright-contact {
-    0% {margin-left: 400px; width: 0px;}
-    15% {margin-left: 400px; width: 0px;}
-    30% {margin-left: 400px; width: 0px;}
-    40%{margin-left: 326px; width: 74px;}
-    55%{margin-left: 252px; width: 148px;}
-    70%{margin-left: 178px;width: 222px;}
-    85%{margin-left: 104px; width: 296px;}
-    100%{margin-left: 30px ; width: 370px;}
+    0% {margin-left: 325px; width: 0px;}
+    25% {margin-left: 256px; width: 70px;}
+    50% {margin-left: 187px; width: 138px;}
+    75%{margin-left: 119px; width: 207px;}
+    100%{margin-left: 50px ; width: 276px;}
 }
 
 .feedback{

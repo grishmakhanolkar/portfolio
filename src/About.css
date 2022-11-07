@@ -3,19 +3,22 @@
     flex-direction: column;
     align-self: left;
     justify-content: left;
-    margin: 1rem;
+    /* margin: 1rem; */
     padding-top: 5rem;
+    font-size: x-large;
+    letter-spacing: 0.3rem;
 }
 
 .About-cover{
     position: absolute;
-    margin-left: 30px;
+    margin-top: 2rem;
+    margin-left: 50px;
     background-color: #171717;
-    width: 180px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     opacity: 0.8;
     animation-name: slideright;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-timing-function: linear;
@@ -29,16 +32,40 @@
     width: 95%;
     font-size: 50px;
 }
+.About-title{
+    text-transform: uppercase;
+    margin-left: 50px;
+    position: relative;
+}
+
+.About-title:before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    display: block;
+    background-color: #A00;
+    margin-left:-50px ;
+    position: absolute;
+    top:50%;
+    
+}
+.About-title:after{
+    content: "";
+    height: 1px;
+    display: block;
+    background-color: #A00;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 150px;
+}
 
 @keyframes slideright {
-    0% {margin-left: 210px; width: 0px;}
-    15% {margin-left: 210px; width: 0px;}
-    30% {margin-left: 210px; width: 0px;}
-    40%{margin-left: 174px; width: 36px;}
-    55%{margin-left: 138px; width: 72px;}
-    70%{margin-left: 102px;width: 108px;}
-    85%{margin-left: 66px; width: 144px;}
-    100%{margin-left: 30px ; width: 180px;}
+    0% {margin-left: 200px; width: 0px;}
+    25% {margin-left: 162px; width: 37px;}
+    50% {margin-left: 125px; width: 75px;}
+    75%{margin-left: 87px; width: 112px;}
+    100%{margin-left: 50px ; width: 150px;}
 }
 
 .About-info{

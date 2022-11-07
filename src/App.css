@@ -17,3 +17,11 @@ button{
   color: #A00;
   cursor: pointer;
 }
+
+
+button:focus{
+  background-color: aqua;
+}
+button:hover{
+  background-color: aqua;
+}

@@ -14,6 +14,7 @@
     display: flex;
     position: absolute;
     writing-mode: vertical-rl;
+    text-transform: uppercase;
     top: 12rem;
     right: 20rem;
     flex-direction: column;
@@ -44,14 +45,17 @@
 
 .Home-welcome{
     font-size: 7rem;
+    margin: 0.5rem;
 }
 
 .Home-name{
     font-size: 5rem;
+    margin: 0.5rem;
 }
 
 .Home-msg{
     font-size: 3rem;
+    margin: 0.5rem;
 }
 
  .Home-button{

@@ -51,13 +51,15 @@ class Contact extends Component {
         ];
 
         return(
-            <div id="contact" className="Contact">
-                <div className="Contact-cover"/>
-                <fieldset className="Contact-fieldset">
+            <section id="contact" className="Contact">
+                
+                {/* <fieldset className="Contact-fieldset">
                     <legend>
                         CONTACT ME
                     </legend>
-                </fieldset>
+                </fieldset> */}
+                <h2 className="Contact-title"> Contact Me</h2>
+                <div className="Contact-cover"/>
                 <Grid container spacing={0}>
                     <Grid item xs={7}>
                         <Paper style={{
@@ -88,7 +90,7 @@ class Contact extends Component {
                                         '& .MuiOutlinedInput-root': {
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}>
                                 </TextField>
@@ -107,7 +109,7 @@ class Contact extends Component {
                                         '& .MuiOutlinedInput-root': {
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}>
                                 </TextField>
@@ -127,7 +129,7 @@ class Contact extends Component {
                                             height: '200px',
                                             '& fieldset': {borderColor: 'black',},
                                             '&:hover fieldset': {borderColor: 'black',},
-                                            '&.Mui-focused fieldset': {borderColor: 'black',},
+                                            '&.Mui-focused fieldset': {borderColor: 'black', backgroundColor:'aqua', opacity:'0.2'},
                                         },
                                     }}
                                     multiline
@@ -167,7 +169,7 @@ class Contact extends Component {
                         </Paper>
                     </Grid>
                 </Grid>
-            </div>
+            </section>
         );
     }
 }
